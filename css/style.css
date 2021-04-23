@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .container {
+        max-width: 1400px;
+        margin: 20px auto;
+    }
+    
+    header {
+        height: 150px;
+        background-color: blueviolet;
+    }
+    
+    .foto-main {
+        height: 500px;
+        background-color: yellowgreen;
+    }
+    
+    section {
+        background-color: lightskyblue;
+        height: 150px;
+    }
+    
+    .master {
+        background-color: mediumblue;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .product {
+        width: 25%;
+        padding: 15px 15px 15px 0;
+    }
+    
+    .details {
+        width: 50%;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    .sidebar {
+        width: 25%;
+        padding: 15px 0 15px 15px;
+    }
+    
+    .content {
+        background: lightskyblue;
+        height: 500px; 
+    }
+     /* tolgo height quando metto contenuto */
+    
+     footer {
+        background-color: purple;
+        height: 80px;
+    }
