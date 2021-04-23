@@ -40,10 +40,9 @@
 
     .title2 {
         color: black;
-        font-size: 15px;
+        font-size: 20px;
         font-style: 'roboto';
     }
-    
     
     .foto-main {
         height: 600px;
@@ -51,15 +50,12 @@
         background-size: cover;
         background-position: center;
         padding: 450px 350px 100px 60px;
+        border-radius: 10px;
     }
     
     section {
-        background-color: lightskyblue;
-        height: 150px;
-    }
-    
-    .master {
-        background-color: mediumblue;
+        height: 100px;
+        padding-top: 10px;
     }
     
     .fl {
@@ -74,6 +70,7 @@
     .details {
         width: 50%;
         padding: 15px 15px 15px 15px;
+        
     }
     
     .sidebar {
@@ -81,13 +78,48 @@
         padding: 15px 0 15px 15px;
     }
     
-    .content {
-        background: lightskyblue;
-        height: 500px; 
+    .content1 {
+        background-image: url(../img/img-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 100%; 
+        padding: 300px 10px 20px 10px;
     }
-     /* tolgo height quando metto contenuto */
+
+    .content2 {
+        background-image: url(../img/banner-2.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 100%; 
+        padding: 300px 10px 20px 10px;
+        height: 100%;
+    }
+    
+    .content3 {
+        background-image: url(../img/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 100%; 
+        padding: 300px 10px 20px 10px;
+    }
+    
+    /* tolgo bordo quando sapro opacizzare la img */
     
      footer {
-        background-color: purple;
+        font-size: 25px;
         height: 80px;
+        text-align: center;
     }
+
+    .heart {
+        color: red;
+    }
+    	
