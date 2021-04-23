@@ -32,11 +32,25 @@
         margin-bottom: 10px;
     }
 
+    .title {
+         color: black;
+         font-size: 25px;
+         font-style: 'roboto';
+    }
+
+    .title2 {
+        color: black;
+        font-size: 15px;
+        font-style: 'roboto';
+    }
     
     
     .foto-main {
-        height: 500px;
-        background-color: yellowgreen;
+        height: 600px;
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 450px 350px 100px 60px;
     }
     
     section {
