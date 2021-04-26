@@ -84,7 +84,6 @@
     
     .content1 {
         background-image: url(../img/img-1.jpg);
-        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
@@ -105,7 +104,6 @@
     
     .content3 {
         background-image: url(../img/img-4.jpg);
-        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
