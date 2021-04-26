@@ -9,6 +9,10 @@
         display: table;
         clear: both;
     }
+
+    body {
+        background-color: darkgrey;
+    }
     
     .container {
         max-width: 1400px;
@@ -51,6 +55,7 @@
         background-position: center;
         padding: 450px 350px 100px 60px;
         border-radius: 10px;
+        border: 1px solid black; 
     }
     
     section {
@@ -85,7 +90,7 @@
         border-radius: 10px;
         border: 1px solid black;
         width: 100%; 
-        padding: 300px 10px 20px 10px;
+        height: 332px;
     }
 
     .content2 {
@@ -95,7 +100,7 @@
         border-radius: 10px;
         border: 1px solid black;
         width: 100%; 
-        padding: 300px 10px 20px 10px;
+        height: 332px;
     }
     
     .content3 {
@@ -106,7 +111,7 @@
         border-radius: 10px;
         border: 1px solid black;
         width: 100%; 
-        padding: 300px 10px 20px 10px;
+        height: 332px;
     }
     
     /* tolgo bordo quando sapro opacizzare la img */
